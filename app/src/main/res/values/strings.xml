@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RigsMonitor</string>
+    <string name="alert_input_pincode_tittle">Informe o endereço da carteira:</string>
+    <string name="alert_input_pincode_textinput_hint">Endereço</string>
+    <string name="alert_input_pincode_textinput_btn_send">Enviar</string>
+    <string name="alert_input_pincode_textinput_btn_cancelar">Cancelar</string>
+    <string name="account">Account:</string>
+    <string name="hashrate">Hashrate:</string>
+    <string name="balance">Balance:</string>
+    <string name="toolbar_refresh">Refresh</string>
+    <string name="toolbar_wallet">Adicionar carteira</string>
+    <string name="toolbar_onoff_notification">On/Off Notification</string>
+    <string name="space">"              "</string>
+    <string name="btc">"BTC"</string>
+    <string name="usd">"USD"</string>
+    <string name="hora">"Hora"</string>
+    <string name="dia">"Dia"</string>
+    <string name="semana">"Semana"</string>
+    <string name="mes">"Mês"</string>
+    <string name="worker">"Worker:"</string>
+    <string name="carteira">Carteiras</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="excluir">Excluir</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="nanopool">Nanopool</string>
+    <string name="ethermine">Ethermine</string>
+    <string name="cenario_atual">Cenário Atual</string>
+    <string name="total_hashrate">Total do Hashrate:</string>
+    <string name="sensibilidade_da_notificacao">Sensibilidade da Notificação:</string>
+    <string name="msg_config_notfy_atualizada">Configuração de monitoramento e notificação atualizada!</string>
+    <string name="sens_config_notfy_help">Aqui você defina a sensibilidade para que a notificação seja emitida.\nExemplo: 0 - Significa sem notificações.\n50 - Significa que você será notificado caso o Hashrate caia pela metade ou mais.\n100 - Significa que qualquer valor reduzido do seu Hashrate atual você será notificado.</string>
+</resources>

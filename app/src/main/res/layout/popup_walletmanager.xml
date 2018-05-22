@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/carteira"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/etxt_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:hint="@string/account"
+        android:singleLine="true" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_walletmanager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radio_nanopool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/darker_gray"
+            android:checked="true"
+            android:text="@string/nanopool" />
+
+        <RadioButton
+            android:id="@+id/radio_ethermine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/darker_gray"
+            android:text="@string/ethermine" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/popup_list_carteias"
+        style="@style/Base.Widget.AppCompat.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="ClickEventAdd"
+            android:text="@string/adicionar" />
+
+        <Button
+            android:id="@+id/button_rm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="ClickEventRm"
+            android:text="@string/excluir" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
